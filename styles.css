@@ -62,7 +62,7 @@ body {
 }
 
 .description {
-    margin: 1.5rem 0 .5rem 0;
+    margin: 1.5rem 0 1rem 0;
 }
 
 .socials {
@@ -76,15 +76,23 @@ body {
 
 .anchor-wrapper {
     background-color: hsl(0, 0%, 20%);
+    border-radius: .3rem;
 
     display: flex;
     justify-content: center;
     width: 100%;
-        
+
     margin: .5rem 0;
 }
 
 .socials a {
     color: white;
     text-decoration: none;
+
+    padding: .5rem 0;
+}
+
+.anchor-wrapper:hover {
+    background-color:hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
 }
