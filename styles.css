@@ -5,3 +5,86 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: white;
+    background-color: hsl(0, 0%, 8%);
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.page {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 1.5rem;
+}
+
+.img-wrapper {
+    
+}
+
+.pfp {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bio h2 {
+    margin: 2rem 0 1rem 0;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+}
+
+.description {
+    margin: 1.5rem 0 .5rem 0;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.anchor-wrapper {
+    background-color: hsl(0, 0%, 20%);
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+        
+    margin: .5rem 0;
+}
+
+.socials a {
+    color: white;
+    text-decoration: none;
+}
