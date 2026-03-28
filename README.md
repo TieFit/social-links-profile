@@ -32,5 +32,5 @@ Social links profile page built using HTML/CSS
 
 ## Author
 
-- Website - [GitHub](https://github/TieFit/social-links-profile)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/TieFit)
+- Website - [TieFit](https://github/TieFit/social-links-profile)
+- Frontend Mentor - [TieFit](https://www.frontendmentor.io/profile/TieFit)
